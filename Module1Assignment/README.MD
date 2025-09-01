@@ -1,33 +1,67 @@
 
+# 🧠 Django CRUD MiniLab – Hallucination Checker
 
-# Django CRUD MiniLab – Hallucination Checker
+This Django mini-app demonstrates a secure Create/Read pattern for managing AI-generated code snippets — with an emphasis on traceability and secure software development workflows.
 
-## Project Overview
+---
 
-This Django mini-app demonstrates a secure CRUD pattern for managing AI-generated code snippets that may contain hallucination risks. It supports:
+## 📚 Table of Contents
 
-- Creating a code snippet
-- Viewing all submitted snippets
-- Lays groundwork for later annotations and validations
+- [📁 Folder Structure](#-folder-structure)
+- [📌 Project Overview](#-project-overview)
+- [🛠️ Setup & Scaffold](#️-setup--scaffold)
+- [🧩 Model](#-model)
+- [🌐 Views + URLs](#-views--urls)
+- [🔄 Django Principles](#-django-principles)
+- [📸 Screenshots](#-screenshots)
+- [🧪 Step-by-Step Setup Guide](#-step-by-step-setup-guide)
+- [🔗 GitHub Repo Links](#-github-repo-links)
+- [💡 Reflection](#-reflection)
+
+---
+
+## 📁 Folder Structure
+
+```
+
+Module1Assignment/
+├── hallucination\_checker/       ← Project settings (urls.py, settings.py)
+├── hallucination\_app/           ← App logic (views, models, forms, templates)
+│   └── templates/
+│       └── hallucination\_app/
+│           ├── create\_snippet.html
+│           └── list\_snippets.html
+├── screenshots/
+│   ├── create\_entry.png
+│   └── view\_entries.png
+├── manage.py
+└── README.md
+
+````
+
+---
+
+## 📌 Project Overview
+
+This app allows users to submit and view AI-generated code snippets. Its purpose is to simulate traceable AI code submission, such as detecting hallucination risks in secure development workflows.  
+While this version supports only Create and Read, it establishes a foundation for future validation, annotation, and risk detection.
 
 ---
 
 ## 🛠️ Setup & Scaffold
 
 ```bash
-django-admin startproject hallucination_checker
-cd hallucination_checker
+django-admin startproject hallucination_checker .
 python manage.py startapp hallucination_app
 ````
 
-Registered `hallucination_app` in `INSTALLED_APPS`.
+✅ Registered `hallucination_app` in `INSTALLED_APPS`.
 
 ---
 
-## 📌 Model
+## 🧩 Model
 
 ```python
-# hallucination_app/models.py
 from django.db import models
 
 class CodeSnippet(models.Model):
@@ -41,10 +75,10 @@ class CodeSnippet(models.Model):
 
 ---
 
-## 🌐 URLs + Views (Create + Read)
+## 🌐 Views + URLs
 
 ```python
-# hallucination_app/views.py
+# views.py
 from django.shortcuts import render, redirect
 from .models import CodeSnippet
 from .forms import CodeSnippetForm
@@ -64,41 +98,111 @@ def list_snippets(request):
     return render(request, 'hallucination_app/list_snippets.html', {'snippets': snippets})
 ```
 
+```python
+# urls.py
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.list_snippets, name='list_snippets'),
+    path('create/', views.create_snippet, name='create_snippet'),
+]
+```
+
 ---
 
-## 🔄 Transaction & Invariants
+## 🔄 Django Principles
 
-Although simple, this app adheres to Django-first principles:
-
-* Models are the **single source of truth**
-* Views are kept thin
-* Validation can be extended via `Model.clean()` or custom `Managers`
-* In production, `transaction.atomic()` can wrap save actions for safety in concurrent access
+* `models.py` is the **source of truth** for data structure
+* Views are **thin controllers**, delegating to forms and templates
+* `transaction.atomic()` and `select_for_update()` are reserved for future transactional safety
+* Extensible toward validation pipelines and audit trails
 
 ---
 
 ## 📸 Screenshots
 
+### Create Entry
+
 ![Create Entry](screenshots/create_entry.png)
+
+### View Entries
+
 ![View Entries](screenshots/view_entries.png)
+
+---
+
+## 🧪 Step-by-Step Setup Guide
+
+### ✅ 1. Create virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
+```
+
+### ✅ 2. Install Django
+
+```bash
+pip install django
+```
+
+### ✅ 3. Start project and app
+
+```bash
+django-admin startproject hallucination_checker .
+python manage.py startapp hallucination_app
+```
+
+### ✅ 4. Register app
+
+In `hallucination_checker/settings.py`, add:
+
+```python
+'hallucination_app',
+```
+
+### ✅ 5. Create templates
+
+```bash
+mkdir -p hallucination_app/templates/hallucination_app
+```
+
+### ✅ 6. Apply migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### ✅ 7. Run the development server
+
+```bash
+python manage.py runserver
+```
+
+Then visit:
+
+* [http://127.0.0.1:8000/create/](http://127.0.0.1:8000/create/) → Submit snippets
+* [http://127.0.0.1:8000/](http://127.0.0.1:8000/) → View all snippets
+
+---
+
+## 🔗 GitHub Repo Links
+
+> *Update these after pushing:*
+
+* [View `models.py`](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment/hallucination_app/models.py)
+* [Full commit history](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment)
 
 ---
 
 ## 💡 Reflection
 
-This CRUD lab helped reinforce how Django naturally encourages separation of concerns. For larger-scale AI code validators, the same foundation could be extended with:
+This CRUD MiniLab solidified core Django concepts and reinforced the value of “thin views” and model-driven architecture. While the app is basic, it serves as a scaffold for more complex AI-aware pipelines — such as risk annotation, hallucination detection, and audit trail generation.
 
-* `transaction.atomic()` for batch validations
-* `select_for_update()` to prevent race conditions in status updates
-* Form/Model validations for schema and risk rules
-* API views for frontend decoupling
+It reflects Django-first thinking, modular design, and future readiness.
 
 ---
-
-## 🔗 Repo Links
-
-* [View full commit history here](https://github.com/your-username/repo-name/commit/xxxxx)
-* [View `models.py`](https://github.com/your-username/repo-name/blob/main/Module1Assignment/src/hallucination_checker/hallucination_app/models.py)
-
-
 
