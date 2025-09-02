@@ -1,14 +1,13 @@
 
 #### Modlue 1 Assignment : Django CRUD MiniLab 
 
-### Title: Django CRUD MiniLab – Hallucination Checker
 
-###### Student: Mafruha Chowdhury
-##### Course: CIDM 6325/70 
-##### Date: 09/01/2025 
+    Student: Mafruha Chowdhury
+    Course: CIDM 6325/70 
+    Date: 09/01/2025 
 
 
-# 🧠 Django CRUD MiniLab – Hallucination Checker
+## Title: Django CRUD MiniLab – Hallucination Checker
 
 This Django mini-app demonstrates a secure Create/Read pattern for managing AI-generated code snippets — with an emphasis on traceability and secure software development workflows.
 
@@ -133,11 +132,11 @@ urlpatterns = [
 
 ### Create Entry
 
-![Create Entry](screenshots/create_entry.png)
+![Create Entry](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/screenshots/create_entry.png)
 
 ### View Entries
 
-![View Entries](screenshots/view_entries.png)
+![View Entries](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/screenshots/view_entries.png)
 
 ---
 
