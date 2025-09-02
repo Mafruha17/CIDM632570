@@ -1,5 +1,11 @@
-#### CIDM632570
-  * Course Number/Section/Name: CIDM6325/70/ Electronic Commerce and Web Development Semester/Year: Fall 2025  Professor: Dr. Jeffry Babb 
+
+#### Modlue 1 Assignment : Django CRUD MiniLab 
+
+### Title: Django CRUD MiniLab – Hallucination Checker
+
+###### Student: Mafruha Chowdhury
+##### Course: CIDM 6325/70 
+##### Date: 09/01/2025 
 
 
 # 🧠 Django CRUD MiniLab – Hallucination Checker
@@ -196,8 +202,8 @@ Then visit:
 
 > *Update these after pushing:*
 
-* [View `models.py`](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment/hallucination_app/models.py)
-* [Full commit history](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment)
+* [View `models.py`](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/hallucination_app/models.py)
+* [Full commit history](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment/Module1Assignment)
 
 ---
 
@@ -208,5 +214,3 @@ This CRUD MiniLab solidified core Django concepts and reinforced the value of �
 It reflects Django-first thinking, modular design, and future readiness.
 
 ---
-
-
