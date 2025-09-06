@@ -147,11 +147,11 @@ urlpatterns = [
 
 ### Create Entry
 
-![Create Entry](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/screenshots/create_entry.png)
+![Create Entry](https://github.com/Mafruha17/CIDM632570/blob/main/Module1Assignment/screenshots/create_entry.png)
 
 ### View Entries
 
-![View Entries](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/screenshots/view_entries.png)
+![View Entries](https://github.com/Mafruha17/CIDM632570/blob/main/Module1Assignment/screenshots/view_entries.png)
 
 ---
 
@@ -216,8 +216,8 @@ Then visit:
 
 > *Update these after pushing:*
 
-* [View `models.py`](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/hallucination_app/models.py)
-* [Full commit history](https://github.com/Mafruha17/CIDM632570/tree/Module1Assignment/Module1Assignment)
+* [View `models.py`](https://github.com/Mafruha17/CIDM632570/tree/main/Module1Assignment/hallucination_app/models.py)
+* [Full commit history](https://github.com/Mafruha17/CIDM632570/tree/main/Module1Assignment)
 
 ---
 
