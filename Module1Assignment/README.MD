@@ -11,7 +11,7 @@
 This repository contains my submission for **Part A: Project Pitch** of CIDM 6325 – Electronic Commerce and Web Development.
 
 📄 **Submission PDF:**  
-[🔗 Download Project Pitch PDF](https://github.com/Mafruha17/CIDM632570/blob/Module1Assignment/Module1Assignment/docs/Module1_PartA_ProjectPitch_MafruhaChowdhury.pdf)
+[🔗 Download Project Pitch PDF](https://github.com/Mafruha17/CIDM632570/blob/main/Module1Assignment/DOC/Module1_PartA_ProjectPitch.pdf)
 
 ### Contents Included:
 - 2–3 page professional memo (~1,000 words)
