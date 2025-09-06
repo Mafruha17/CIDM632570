@@ -14,7 +14,10 @@ This README outlines the scope, design, setup, and delivery goals for the Minimu
 5. [Core Data Models](#core-data-models)  
 6. [Setup Instructions](#setup-instructions)  
 7. [Estimated Effort](#estimated-effort)  
-8. [Goal](#goal)
+8. [Goal](#goal)  
+9. [Development Scaffold](#development-scaffold)  
+10. [Mock AI Logic](#mock-ai-logic)  
+11. [Test Routes](#test-routes)
 
 ---
 
@@ -120,3 +123,57 @@ Deliver a working Django app that showcases:
 - AI-integrated delivery logic
 - Real-time operational transparency
 - Strong foundation for further iterations (Part D, Part H)
+
+---
+
+## 🏗️ Development Scaffold
+
+```bash
+├── manage.py
+├── requirements.txt
+├── logistics_app/           # Django app
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── templates/
+│   └── static/
+├── logistics_project/       # Django project
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── README.md
+```
+
+---
+
+## 🤖 Mock AI Logic
+Simple Python module: `ai_engine.py`
+```python
+def estimate_eta(destination: str, urgency: str) -> int:
+    base_eta = 60 if urgency == "normal" else 30
+    if "remote" in destination.lower():
+        base_eta += 20
+    return base_eta
+
+def assign_route(order_id: int) -> str:
+    return f"Route-{order_id % 5}"  # Dummy route assignment
+```
+
+---
+
+## 🧪 Test Routes
+
+| URL Path             | View Function         | Description                            |
+|----------------------|------------------------|----------------------------------------|
+| `/orders/new/`       | `create_order_view`    | Form to create new shipment order      |
+| `/dashboard/`        | `warehouse_dashboard`  | Displays current orders + statuses     |
+| `/client/status/`    | `client_status_view`   | Client-facing status ETA tracker       |
+| `/ai/preview/`       | `simulate_ai_decision` | View to show AI decision-making logic  |
+
+These are mapped via `logistics_app/urls.py` and included in `logistics_project/urls.py`
+
+---
