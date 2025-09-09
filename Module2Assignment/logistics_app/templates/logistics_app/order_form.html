@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5" id="form-container">
+    <h2 class="mb-4">Create New Order</h2>
+    <form method="post" hx-post="{% url 'order_create' %}" hx-target="#form-container" hx-swap="outerHTML">
+        {% csrf_token %}
+        <div class="mb-3">
+            <label for="order_id" class="form-label">Order ID</label>
+            {{ form.order_id }}
+        </div>
+        <div class="mb-3">
+            <label for="order_date" class="form-label">Order Date</label>
+            {{ form.order_date }}
+        </div>
+        <div class="mb-3">
+            <label for="delivery_location" class="form-label">Delivery Location</label>
+            {{ form.delivery_location }}
+        </div>
+        <div class="mb-3">
+            <label for="client_type" class="form-label">Client Type</label>
+            {{ form.client_type }}
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Order</button>
+    </form>
+</div>
+{% endblock %}
