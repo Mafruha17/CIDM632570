@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container mt-5" id="form-container">
     <h2 class="mb-4">Create New Order</h2>
-    <form method="post" hx-post="{% url 'order_create' %}" hx-target="#form-container" hx-swap="outerHTML">
+    <form method="post">
         {% csrf_token %}
         <div class="mb-3">
             <label for="order_id" class="form-label">Order ID</label>

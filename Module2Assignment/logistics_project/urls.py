@@ -21,13 +21,18 @@ from django.urls import path, include
 from logistics_app.views import index, predict_eta, order_create, order_list
 
 
+#urlpatterns = [
+  #  path('admin/', admin.site.urls),
+  #  path('', include('logistics_app.urls')),
+  #  path('', index, name='home'),
+   # path('predict/', predict_eta, name='predict_eta'),
+    #path('order/new/', order_create, name='order_create'), 
+   # path('orders/', order_list, name='order_list'),
+ 
+#]
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('logistics_app.urls')),
-    path('', index, name='home'),
-    path('predict/', predict_eta, name='predict_eta'),
-    path('order/new/', order_create, name='order_create'), 
-    path('orders/', order_list, name='order_list'),
- 
+    path('', include('logistics_app.urls')),  # ✅ only once
 ]
+
 # logistics_project/urls.py
