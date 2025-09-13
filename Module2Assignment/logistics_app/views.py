@@ -48,12 +48,12 @@ def order_list(request):
 def order_update(request, pk):
     order = get_object_or_404(Order, pk=pk)
     if request.method == 'POST':
-        form = OrderForm(request.POST, instance=order)
+        form = OrderForm(request.POST, instance=order, read_only=True)
         if form.is_valid():
             form.save()
             return redirect('order_list')
     else:
-        form = OrderForm(instance=order)
+        form = OrderForm(instance=order, read_only=True)
     return render(request, 'logistics_app/order_form.html', {
         'form': form,
         'is_update': True,   # 👈 flag to distinguish edit mode
