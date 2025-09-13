@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">Submitted Orders</h2>
+    <div id="order-table">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Order ID</th>
+                    <th>Order Date</th>
+                    <th>Delivery Location</th>
+                    <th>Client Type</th>
+                    <th>ETA</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                <tr id="order-{{ order.id }}">
+                    <td>{{ order.order_id }}</td>
+                    <td>{{ order.order_date }}</td>
+                    <td>{{ order.delivery_location }}</td>
+                    <td>{{ order.client_type }}</td>
+                    <td>{{ order.eta }}</td>
+                    <td>
+                        <button class="btn btn-sm btn-warning" 
+                                hx-get="{% url 'order_update' order.id %}" 
+                                hx-target="#order-{{ order.id }}" 
+                                hx-swap="outerHTML">
+                            Edit
+                        </button>
+                        <button class="btn btn-sm btn-danger" 
+                                hx-post="{% url 'order_delete' order.id %}" 
+                                hx-confirm="Are you sure?" 
+                                hx-target="#order-{{ order.id }}" 
+                                hx-swap="outerHTML">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="6" class="text-center">No orders yet.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

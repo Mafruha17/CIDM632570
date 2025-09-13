@@ -18,12 +18,15 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path
-from logistics_app.views import index, predict_eta, order_create
+from logistics_app.views import index, predict_eta, order_create, order_list
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='home'),
     path('predict/', predict_eta, name='predict_eta'),
-    path('order/new/', order_create, name='order_create'),  # <-- Add this line
+    path('order/new/', order_create, name='order_create'), 
+    path('orders/', order_list, name='order_list'),
+ 
 ]
 # logistics_project/urls.py

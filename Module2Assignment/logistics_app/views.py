@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .ai_engine import calculate_eta_mock, calculate_eta_detailed
 from .forms import OrderForm
+from .models import Order
 
 
 def index(request):
@@ -25,3 +26,7 @@ def order_create(request):
         form = OrderForm()
     
     return render(request, 'logistics_app/order_form.html', {'form': form})
+
+def order_list(request):
+    orders = Order.objects.all().order_by('-order_date')
+    return render(request, 'logistics_app/order_list.html', {'orders': orders})
