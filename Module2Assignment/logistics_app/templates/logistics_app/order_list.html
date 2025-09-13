@@ -25,19 +25,13 @@
                         <td>{{ order.client_type }}</td>
                         <td>{{ order.eta }}</td>
                         <td>
-                            <button class="btn btn-sm btn-warning" 
-                                    hx-get="{% url 'order_update' order.id %}" 
-                                    hx-target="#order-{{ order.id }}" 
-                                    hx-swap="outerHTML">
-                                Edit
-                            </button>
-                            <button class="btn btn-sm btn-danger" 
-                                    hx-post="{% url 'order_delete' order.id %}" 
-                                    hx-confirm="Are you sure?" 
-                                    hx-target="#order-{{ order.id }}" 
-                                    hx-swap="outerHTML">
+                         <a href="{% url 'order_update' order.id %}" class="btn btn-sm btn-warning">Edit</a>
+                        <form method="post" action="{% url 'order_delete' order.id %}" style="display:inline;">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">
                                 Delete
                             </button>
+                        </form>
                         </td>
                     </tr>
                     {% endfor %}

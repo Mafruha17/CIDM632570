@@ -32,20 +32,13 @@ def order_create(request):
     else:
         form = OrderForm()
     
-    return render(request, 'logistics_app/order_form.html', {'form': form})
+    return render(request, 'logistics_app/order_form.html', {
+    'form': form,
+    'is_update': False,  # 👈 flag for create mode
+})
 
 
-#def order_create(request):
-#    if request.method == 'POST':
-#        form = OrderForm(request.POST)
-#       if form.is_valid():
-#            form.save()
-#            return redirect('/orders/')  # redirect to order list
-#    else:
-#        form = OrderForm()
-#    
-#    return render(request, 'logistics_app/order_form.html', {'form': form})
-
+# Update list view to show orders
 def order_list(request):
     orders = Order.objects.all().order_by('-order_date')
     return render(request, 'logistics_app/order_list.html', {'orders': orders})
@@ -57,14 +50,14 @@ def order_update(request, pk):
     if request.method == 'POST':
         form = OrderForm(request.POST, instance=order)
         if form.is_valid():
-            order = form.save(commit=False)
-            order.eta = calculate_eta_mock(order)
-            order.save()
-            return redirect('/orders/')
+            form.save()
+            return redirect('order_list')
     else:
         form = OrderForm(instance=order)
-    return render(request, 'logistics_app/order_form.html', {'form': form})
-
+    return render(request, 'logistics_app/order_form.html', {
+        'form': form,
+        'is_update': True,   # 👈 flag to distinguish edit mode
+    })
 
 # Delete Order
 def order_delete(request, pk):

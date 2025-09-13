@@ -2,7 +2,10 @@
 
 {% block content %}
 <div class="container mt-5" id="form-container">
-    <h2 class="mb-4">Create New Order</h2>
+    <h2 class="mb-4">
+        {% if is_update %} Edit Order {% else %} Create New Order {% endif %}
+    </h2>
+
     <form method="post">
         {% csrf_token %}
         <div class="mb-3">
@@ -21,7 +24,9 @@
             <label for="client_type" class="form-label">Client Type</label>
             {{ form.client_type }}
         </div>
-        <button type="submit" class="btn btn-primary">Submit Order</button>
+        <button type="submit" class="btn btn-primary">
+            {% if is_update %} Update Order {% else %} Submit Order {% endif %}
+        </button>
     </form>
 </div>
 {% endblock %}
