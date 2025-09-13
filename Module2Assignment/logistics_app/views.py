@@ -7,9 +7,12 @@ from .forms import OrderForm
 from .models import Order
 
 
-def index(request):
-    return render(request, 'index.html')
+#def index(request):
+    #return render(request, 'index.html')
 
+def index(request):
+    form = OrderForm()
+    return render(request, 'index.html', {'form': form})
 
 def predict_eta(request):
     eta = calculate_eta_mock(None)
