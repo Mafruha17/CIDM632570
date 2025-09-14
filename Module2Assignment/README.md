@@ -170,7 +170,7 @@ This placeholder can later be replaced by:
 
 ## 📁 Directory Structure
 
-```bash
+```
 ├── logistics_project/
 │   └── logistics_app/
 │       ├── templates/
