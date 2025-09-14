@@ -21,8 +21,12 @@ While the current ETA calculation uses a mock function, the architecture is desi
 * ✏️ **Edit orders inline** using HTMX partial updates
 * ❌ **Delete orders** with confirmation modal
 * 🤖 **Mock AI ETA logic** to simulate delivery time estimation
-* 🎨 Clean **Bootstrap-styled forms and tables**
-* ⚡ Fully asynchronous updates with **HTMX** (no page reloads)
+* 🎨 Clean Bootstrap-styled forms and tables
+* ⚡ Fully **asynchronous updates** with HTMX (no page reloads)
+-  **HTMX-enhanced dynamic** order form with real-time ETA mock logic.
+- Bootstrap-styled UI for **responsive form input and table views**.
+- CRUD interface for order management with AJAX **interactivity.**
+- Django Admin panel enabled for backend data storage and model manag
 ---
 ## Tech Stack
 
@@ -48,7 +52,7 @@ While the current ETA calculation uses a mock function, the architecture is desi
 * [📁 Directory Structure](#-directory-structure)
 * [🚀 Usage](#-usage)
 * [✅ Manual Testing Checklist](#-Manual-Testing-Checklist)
-* [Sample Screenshots](#-Sample-Screenshots)
+* [ Sample Screenshots](#-Sample-Screenshots)
 * [💡 Notes for Review](#-notes-for-review)
 * [📌 Next Steps (Optional Enhancements)](#-next-steps-optional-enhancements)
 
@@ -171,16 +175,16 @@ This placeholder can later be replaced by:
 │   └── logistics_app/
 │       ├── templates/
 │       │   └── logistics_app/
-│       │       ├── [order_form.html](logistics_project/logistics_app/templates/logistics_app/order_form.html)
-│       │       ├── [order_list.html](logistics_project/logistics_app/templates/logistics_app/order_list.html)
-│       │       └── [order_confirm_delete.html](logistics_project/logistics_app/templates/logistics_app/order_confirm_delete.html)
-│       ├── [forms.py](logistics_project/logistics_app/forms.py)
-│       ├── [models.py](logistics_project/logistics_app/models.py)
-│       ├── [views.py](logistics_project/logistics_app/views.py)
-│       ├── [urls.py](logistics_project/logistics_app/urls.py)
-│       └── [ai_engine.py](logistics_project/logistics_app/ai_engine.py)  ← ETA logic (mock placeholder)
+│       │       ├── [order_form.html](https://github.com/Mafruha17/CIDM632570/tree/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_form.html)
+│       │       ├── [order_list.html](https://github.com/Mafruha17/CIDM632570/tree/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_list.html)
+│       │       └── [order_confirm_delete.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_confirm_delete.html)
+│       ├── [forms.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/forms.py)
+│       ├── [models.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/models.py)
+│       ├── [views.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/views.py)
+│       ├── [urls.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/urls.py)
+│       └── [ai_engine.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/ai_engine.py)  ← ETA logic (mock placeholder)
 ├── db.sqlite3
-└── [manage.py](logistics_project/manage.py)
+└── [manage.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/manage.py)
 ```
 
 ---
@@ -238,10 +242,10 @@ python manage.py createsuperuser
 
 ## Sample Screenshots
 
-> ![Create new order](image-5.png)
-> ![Orders](image-4.png)
-> ![Edot Order](image-3.png)
-> ![Delete Order](image-2.png)
+> ![Create new order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/adding_order)
+> ![Orders](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/Orders.png)
+> ![Edit Order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/EditOrders.png)
+> ![Delete Order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/DeleteOrder.png)
 > 
 ---
 ## Future Work
