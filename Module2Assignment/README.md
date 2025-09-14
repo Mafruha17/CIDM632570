@@ -170,22 +170,21 @@ This placeholder can later be replaced by:
 
 ## 📁 Directory Structure
 
-```
-├── logistics_project/
-│   └── logistics_app/
-│       ├── templates/
-│       │   └── logistics_app/
-│       │       ├── [order_form.html](https://github.com/Mafruha17/CIDM632570/tree/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_form.html)
-│       │       ├── [order_list.html](https://github.com/Mafruha17/CIDM632570/tree/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_list.html)
-│       │       └── [order_confirm_delete.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_confirm_delete.html)
-│       ├── [forms.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/forms.py)
-│       ├── [models.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/models.py)
-│       ├── [views.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/views.py)
-│       ├── [urls.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/urls.py)
-│       └── [ai_engine.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/ai_engine.py)  ← ETA logic (mock placeholder)
-├── db.sqlite3
-└── [manage.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/manage.py)
-```
+## Project Structure (with clickable links)
+
+- [manage.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/manage.py)
+- logistics_project/
+  - logistics_app/
+    - [forms.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/forms.py)
+    - [models.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/models.py)
+    - [views.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/views.py)
+    - [urls.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/urls.py)
+    - [ai_engine.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/ai_engine.py) ← ETA logic (mock placeholder)
+    - templates/logistics_app/
+      - [order_form.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_form.html)
+      - [order_list.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_list.html)
+      - [order_confirm_delete.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_confirm_delete.html)
+
 
 ---
 
