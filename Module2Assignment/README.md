@@ -49,7 +49,7 @@ While the current ETA calculation uses a mock function, the architecture is desi
 * [🤖 ETA Mock Logic](#-eta-mock-logic)
 * [🚫 Controlled Fields](#-controlled-fields)
 * [📂 Routes Implemented](#-routes-implemented)
-* [📁 Directory Structure](#-directory-structure)
+* [📁 Directory Structure | code link](#-directory-structure)
 * [🚀 Usage](#-usage)
 * [✅ Manual Testing Checklist](#-Manual-Testing-Checklist)
 * [ Sample Screenshots](#-Sample-Screenshots)
