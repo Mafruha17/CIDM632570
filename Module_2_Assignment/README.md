@@ -13,6 +13,14 @@ This project is a lightweight web-based **Supply Chain Order Management System**
 
 While the current ETA calculation uses a mock function, the architecture is designed to support integration with real machine learning models or external APIs.
 
+
+---
+
+## 📑 Supporting Documents
+- [PRD.md](./PRD.md) – Product Requirements Document (Module 2, Part 0)  
+- [AI_LOG.md](./AI_LOG.md) – AI prompt log for transparency  
+- [ETHICS.md](./ETHICS.md) – Ethics & Accessibility reflection  
+
 ---
 ## Features
 
@@ -27,6 +35,12 @@ While the current ETA calculation uses a mock function, the architecture is desi
 - Bootstrap-styled UI for **responsive form input and table views**.
 - CRUD interface for order management with AJAX **interactivity.**
 - Django Admin panel enabled for backend data storage and model manag
+* ✅ Django Admin portal is fully functional for backend data management.  
+  - Admins can log in and manage orders directly.  
+  - Superuser creation tested with `python manage.py createsuperuser`.  
+  - Orders created via the web UI also appear in the admin portal and vice versa.  
+
+
 ---
 ## Tech Stack
 
@@ -39,6 +53,21 @@ While the current ETA calculation uses a mock function, the architecture is desi
 | DB            | SQLite (default)       |
 
 ---
+
+
+## 🕒 Deferred Parts
+Per professor instructions, the following deliverables are deferred until later modules:  
+- Authentication and workflow-driven CRUD blog feature  
+- Peer review submission  
+- Business value discussion post  
+- Pulse Survey #2  
+- TravelDriveFly critique  
+
+
+## 🚀 Usage
+1. **Start server:**  
+   ```bash
+   python manage.py runserver
 
 ## 📑 Table of Contents
 
@@ -198,9 +227,11 @@ python manage.py runserver
 
 2. **Access application:**
 
-* Home page with form: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-* Orders list: [http://127.0.0.1:8000/orders/](http://127.0.0.1:8000/orders/)
-* Create new order: [http://127.0.0.1:8000/order/create/](http://127.0.0.1:8000/order/create/)
+* CRUD operations (Create, Read, Update, Delete) fully tested.  
+* Orders created via the web UI are reflected in the Admin panel and vice versa.  
+
+* CRUD operations (Create, Read, Update, Delete) fully tested.  
+* Orders created via the web UI are reflected in the Admin panel and vice versa.  
 
 3. **Admin panel (optional):**
 
