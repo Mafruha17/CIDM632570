@@ -1,28 +1,58 @@
+## Mafruha Chowdhury  
+CIDM 6325-70  
+West Texas A&M University  
 
-#### Modlue 1 Assignment : Django CRUD MiniLab 
+---
 
+# Module 1 Assignment – Foundations, Pitch, and Django Practice
 
-    Student: Mafruha Chowdhury
-    Course: CIDM 6325/70 
-    Date: 09/01/2025 
+## 📑 Overview
+This folder contains all deliverables for **Module 1** of CIDM 6325/70.  
 
-## 📌 Module 1 – Part A: Project Pitch
-
-This repository contains my submission for **Part A: Project Pitch** of CIDM 6325 – Electronic Commerce and Web Development.
-
-📄 **Submission PDF:**  
-[🔗 Download Project Pitch PDF](https://github.com/Mafruha17/CIDM632570/blob/main/Module1Assignment/DOC/Module1_Assignment_PDF.pdf)
-
-### Contents Included:
-- 2–3 page professional memo (~1,000 words)
-- Problem, stakeholders, scope, and success metrics
-- Minimal Viable Artifact (MVA) design
-- Embedded system architecture sketch (frontend/backend/AI/data flow)
-- Evidence base with citations (NIST AI RMF, OWASP, IEEE standards)
-- Risk register with top 3 risks + mitigations
+The **core submission** is provided as [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment_PDF.pdf), which consolidates the memo, MVP design, system sketches, risk registry, references, and AI disclosure into a single document.  
+Additional supporting files (AI_LOG.md, ETHICS.md, Django VMS Critique) are also included for transparency and alignment with course requirements.
 
 
-##  AI-Powered Delivery Order Management System (Django + HTMX)
+---
 
-This Django mini-app demonstrates a secure Create/Read pattern for managing AI-generated code snippets — with an emphasis on traceability and secure software development workflows.
+## 📌 Contents
 
+### Part A – Project Pitch
+- [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable (Foundations, Pitch, Django Practice).**  
+  This file includes the **project memo, MVP, system sketches, risk registry, references, and AI disclosure**.  
+- [Module1_Assignment.pdf](./DOC/Module1_Assignment.pdf) – **Full Module 1 initial (Foundations, Pitch, Django Practice).**  
+  This file includes the **project memo, MVP, system sketches, risk registry, references, and AI disclosure**.  
+### Part B – AI Tooling Lab Log
+- [AI_LOG.md](./AI_LOG.md) – Documentation of AI-assisted prompts and iteration history.  
+
+### Part C – Prompt Log & Reflection
+- Integrated into [AI_LOG.md](./AI_LOG.md).  
+
+### Part D – Ethics & Accessibility
+- [ETHICS.md](./ETHICS.md) – Reflection on accessibility, AI ethics, and compliance.  
+
+### Part E – Syllabus Accountability Note
+- Embedded within assignment submission.  
+
+### Part F – Tier Declaration & Rationale
+- Self-assessment of skill tier (Intermediate).  
+
+### Part G – Django CRUD MiniLab
+- Implemented Django + HTMX CRUD operations as proof-of-concept.  
+
+### Part H – Django VMS Critique
+- [Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf](./DOC/Module1_Assignment.pdf) – 1–2 page critique of Django-based VMS architecture.  
+
+---
+
+## ✅ Key Outcomes
+- Delivered a complete **Module 1 package** in both PDF and Markdown format.  
+- Practiced AI-assisted, portfolio-driven development.  
+- Built a working CRUD mini-project with Django + HTMX.  
+- Documented ethical, accessibility, and compliance considerations.  
+
+---
+
+## 🔗 Notes
+- The **PDF is the official submission**, while Markdown files provide transparency and iterative documentation.  
+- This foundation directly informed Module 2’s [PRD.md](../Module_2_Assignment/PRD.md).  

@@ -138,7 +138,8 @@ Designed for **logistics managers** and **supply coordinators**, this MVP platfo
 
 ## 🧠 AI Integration (Planned)
 
-* Current ETA logic uses `calculate_eta_mock(order)` from [`ai_engine.py`](logistics_project/logistics_app/ai_engine.py).
+* Current ETA logic uses `calculate_eta_mock(order)` from [`ai_engine.py`](./Module_2_Assignment/logistics_project/logistics_app/ai_engine.py).
+
 * This mock function simulates ETA prediction and is used as a placeholder.
 * Future iterations will integrate **real AI/ML logic or an external API** to calculate delivery ETA based on input parameters (e.g., location, client type).
 
@@ -201,18 +202,20 @@ This placeholder can later be replaced by:
 
 ## Project Structure (with clickable links)
 
-- [manage.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/manage.py)
+
+- [manage.py](./Module_2_Assignment/manage.py)
+- [requirements.txt](./Module_2_Assignment/requirements.txt)
 - logistics_project/
   - logistics_app/
-    - [forms.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/forms.py)
-    - [models.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/models.py)
-    - [views.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/views.py)
-    - [urls.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/urls.py)
-    - [ai_engine.py](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/ai_engine.py) ← ETA logic (mock placeholder)
+    - [forms.py](./Module_2_Assignment/logistics_project/logistics_app/forms.py)
+    - [models.py](./Module_2_Assignment/logistics_project/logistics_app/models.py)
+    - [views.py](./Module_2_Assignment/logistics_project/logistics_app/views.py)
+    - [urls.py](./Module_2_Assignment/logistics_project/logistics_app/urls.py)
+    - [ai_engine.py](./Module_2_Assignment/logistics_project/logistics_app/ai_engine.py) ← ETA logic (mock placeholder)
     - templates/logistics_app/
-      - [order_form.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_form.html)
-      - [order_list.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_list.html)
-      - [order_confirm_delete.html](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/logistics_app/templates/logistics_app/order_confirm_delete.html)
+      - [order_form.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_form.html)
+      - [order_list.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_list.html)
+      - [order_confirm_delete.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_confirm_delete.html)
 
 
 ---
@@ -272,11 +275,11 @@ python manage.py createsuperuser
 
 ## Sample Screenshots
 
-> ![Create new order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/adding_order)
-> ![Orders](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/Orders.png)
-> ![Edit Order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/EditOrders.png)
-> ![Delete Order](https://github.com/Mafruha17/CIDM632570/blob/Module2Assignment/Module2Assignment/doc/DeleteOrder.png)
-> 
+> ![Create new order](./Module_2_Assignment/doc/adding_order.png)  
+> ![Orders](./Module_2_Assignment/doc/Orders.png)  
+> ![Edit Order](./Module_2_Assignment/doc/EditOrders.png)  
+> ![Delete Order](./Module_2_Assignment/doc/DeleteOrder.png)  
+
 ---
 ## Future Work
 

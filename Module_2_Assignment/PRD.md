@@ -23,7 +23,7 @@ Many mid-tier logistics operators still depend on outdated, rule-based schedulin
 - Deliver a scalable, ethical, and accessible platform.  
 
 ### Traceability Note
-This PRD builds directly on the **Module 1 Pitch and MVP** (see `Module_1_Assignment/Module1_Assignment_PDF.pdf`) by refining its scope into implementation-ready requirements.
+This PRD builds directly on the **Module 1 Pitch and MVP** (see `Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf`) by refining its scope into implementation-ready requirements.
 
 ---
 
