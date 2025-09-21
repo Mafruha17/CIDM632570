@@ -11,12 +11,11 @@ Each module is organized into its own folder for clarity and version control.
 
 ## 📂 Repository Structure
 
-- **[Module_1_Assignment](./Module_1_Assignment/DOC/Module1_Assignment.pdf) - **Initial 
   - [Module1_Assignment_PDF.pdf](./Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable** (Foundations, Pitch, Django Practice).  
     Includes the project memo, MVP design, system sketches, risk registry, references, and AI disclosure.  
   - [AI_LOG.md](./Module_1_Assignment/AI_LOG.md) – AI usage log.  
   - [ETHICS.md](./Module_1_Assignment/ETHICS.md) – Ethics & accessibility reflection.  
-  - [Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf](./Module_1_Assignment/Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf) – Django VMS Critique (Part H).  
+  - [Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf](./Module_1_Assignment/DOC/Module1_Assignment.pdf) – Django VMS Critique (Part H).  
 
 - **[Module_2_Assignment](./Module_2_Assignment)/**
   - [PRD.md](./Module_2_Assignment/PRD.md) – Product Requirements Document (Part 0).  
@@ -24,6 +23,12 @@ Each module is organized into its own folder for clarity and version control.
   - [AI_LOG.md](./Module_2_Assignment/AI_LOG.md) – AI usage log.  
   - [ETHICS.md](./Module_2_Assignment/ETHICS.md) – Ethics & accessibility reflection.  
   - [README.md](./Module_2_Assignment/README.md) – Module-level overview.  
+
+---
+
+## 🔗 Quick Links
+- [Module 1 Assignment](./Module_1_Assignment)  
+- [Module 2 Assignment](./Module_2_Assignment)  
 
 ---
 
@@ -53,11 +58,6 @@ Each module is organized into its own folder for clarity and version control.
   - Part D – Pulse Survey #2  
   - Part E – TravelDriveFly Critique  
 
----
-
-## 🔗 Quick Links
-- [Module 1 Assignment](./Module_1_Assignment)  
-- [Module 2 Assignment](./Module_2_Assignment)  
 
 ---
 

@@ -8,4 +8,5 @@ db.sqlite3
 *.vscode/
 .venv/
 venv/
-
+# Ignore backup ZIPs
+*.zip

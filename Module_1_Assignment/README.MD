@@ -20,8 +20,6 @@ Additional supporting files (AI_LOG.md, ETHICS.md, Django VMS Critique) are also
 ### Part A – Project Pitch
 - [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable (Foundations, Pitch, Django Practice).**  
   This file includes the **project memo, MVP, system sketches, risk registry, references, and AI disclosure**.  
-- [Module1_Assignment.pdf](./DOC/Module1_Assignment.pdf) – **Full Module 1 initial (Foundations, Pitch, Django Practice).**  
-  This file includes the **project memo, MVP, system sketches, risk registry, references, and AI disclosure**.  
 ### Part B – AI Tooling Lab Log
 - [AI_LOG.md](./AI_LOG.md) – Documentation of AI-assisted prompts and iteration history.  
 

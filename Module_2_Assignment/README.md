@@ -203,19 +203,19 @@ This placeholder can later be replaced by:
 ## Project Structure (with clickable links)
 
 
-- [manage.py](./Module_2_Assignment/manage.py)
-- [requirements.txt](./Module_2_Assignment/requirements.txt)
+- [manage.py](./manage.py)
+- [requirements.txt](./requirements.txt)
 - logistics_project/
   - logistics_app/
-    - [forms.py](./Module_2_Assignment/logistics_project/logistics_app/forms.py)
-    - [models.py](./Module_2_Assignment/logistics_project/logistics_app/models.py)
-    - [views.py](./Module_2_Assignment/logistics_project/logistics_app/views.py)
-    - [urls.py](./Module_2_Assignment/logistics_project/logistics_app/urls.py)
-    - [ai_engine.py](./Module_2_Assignment/logistics_project/logistics_app/ai_engine.py) ← ETA logic (mock placeholder)
+    - [forms.py](./logistics_app/forms.py)
+    - [models.py](./logistics_app/models.py)
+    - [views.py](./logistics_app/views.py)
+    - [urls.py](./logistics_app/urls.py)
+    - [ai_engine.py](./logistics_app/ai_engine.py) ← ETA logic (mock placeholder)
     - templates/logistics_app/
-      - [order_form.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_form.html)
-      - [order_list.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_list.html)
-      - [order_confirm_delete.html](./Module_2_Assignment/logistics_project/logistics_app/templates/logistics_app/order_confirm_delete.html)
+      - [order_form.html](./logistics_app/templates/logistics_app/order_form.html)
+      - [order_list.html](./logistics_app/templates/logistics_app/order_list.html)
+      - [order_confirm_delete.html](./logistics_app/templates/logistics_app/order_confirm_delete.html)
 
 
 ---
@@ -275,10 +275,10 @@ python manage.py createsuperuser
 
 ## Sample Screenshots
 
-> ![Create new order](./Module_2_Assignment/doc/adding_order.png)  
-> ![Orders](./Module_2_Assignment/doc/Orders.png)  
-> ![Edit Order](./Module_2_Assignment/doc/EditOrders.png)  
-> ![Delete Order](./Module_2_Assignment/doc/DeleteOrder.png)  
+> ![Create new order](./doc/adding_order.png)  
+> ![Orders](./doc/Orders.png)  
+> ![Edit Order](./doc/EditOrders.png)  
+> ![Delete Order](./doc/DeleteOrder.png)  
 
 ---
 ## Future Work
