@@ -45,7 +45,6 @@ Each module is organized into its own folder for clarity and version control.
 - ✅ **Part F:** Tier Declaration & Rationale  
 - ✅ **Part G:** Django CRUD MiniLab  
 - ✅ **Part H:** Django VMS Critique  
-- 📌 *See [Module1_Assignment_PDF.pdf](./Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) for the full consolidated deliverable.*   
 
 
 ### Module 2
