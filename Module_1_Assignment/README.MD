@@ -9,8 +9,13 @@ West Texas A&M University
 ## 📑 Overview
 This folder contains all deliverables for **Module 1** of CIDM 6325/70.  
 
-The **core submission** is provided as [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment_PDF.pdf), which consolidates the memo, MVP design, system sketches, risk registry, references, and AI disclosure into a single document.  
-Additional supporting files (AI_LOG.md, ETHICS.md, Django VMS Critique) are also included for transparency and alignment with course requirements.
+The **core submission** is provided as 
+📄 [📥 Click to Download Module 1 Assignment PDF](https://github.com/Mafruha17/CIDM632570/raw/main/Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf)
+
+This file consolidates the memo, MVP design, system sketches, risk registry, references, and AI disclosure into a single document.  
+>Additional supporting files (AI_LOG.md, ETHICS.md, Django VMS Critique) are also included for transparency and alignment with course requirements.
+
+> _Note: Due to file size, GitHub may not preview this PDF inline. Please download to view.included for transparency and alignment with course requirements.
 
 
 ---
@@ -18,8 +23,9 @@ Additional supporting files (AI_LOG.md, ETHICS.md, Django VMS Critique) are also
 ## 📌 Contents
 
 ### Part A – Project Pitch
-- [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable (Foundations, Pitch, Django Practice).**  
+- [Module1_Assignment_PDF.pdf](./DOC/Module1_Assignment.pdf) – **Full Module 1 deliverable (Foundations, Pitch, Django Practice).**  
   This file includes the **project memo, MVP, system sketches, risk registry, references, and AI disclosure**.  
+
 ### Part B – AI Tooling Lab Log
 - [AI_LOG.md](./AI_LOG.md) – Documentation of AI-assisted prompts and iteration history.  
 

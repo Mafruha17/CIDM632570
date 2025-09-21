@@ -11,8 +11,10 @@ Each module is organized into its own folder for clarity and version control.
 
 ## 📂 Repository Structure
 
-  - [Module1_Assignment_PDF.pdf](./Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable** (Foundations, Pitch, Django Practice).  
-    Includes the project memo, MVP design, system sketches, risk registry, references, and AI disclosure.  
+  - [Module1_Assignment_PDF.pdf](https://github.com/Mafruha17/CIDM632570/raw/main/Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable** (Foundations, Pitch, Django Practice).  
+  
+    Includes the project memo, MVP design, system sketches, risk registry, references, and AI disclosure. 
+ 
   - [AI_LOG.md](./Module_1_Assignment/AI_LOG.md) – AI usage log.  
   - [ETHICS.md](./Module_1_Assignment/ETHICS.md) – Ethics & accessibility reflection.  
   - [Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf](./Module_1_Assignment/DOC/Module1_Assignment.pdf) – Django VMS Critique (Part H).  
@@ -44,7 +46,7 @@ Each module is organized into its own folder for clarity and version control.
 - ✅ **Part G:** Django CRUD MiniLab  
 - ✅ **Part H:** Django VMS Critique  
 - 📌 *See [Module1_Assignment_PDF.pdf](./Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) for the full consolidated deliverable.*   
- 📌 *See [Module1_Assignment_PDF.pdf](./Module_1_Assignment/DOC/Module1_Assignment.pdf) for the initial deliverable.*  
+
 
 ### Module 2
 - ✅ **Part 0:** Product Requirements Document (PRD.md)  
