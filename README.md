@@ -9,6 +9,54 @@ Each module is organized into its own folder for clarity and version control.
 
 ---
 
+# 💼 CIDM 6325 – Electronic Commerce | Fall 2025
+
+**Instructor:** [Your Professor's Name]  
+**Student:** Mafruha Chowdhury  
+**Focus:** AI-native, portfolio-driven development using Django + Bootstrap + HTMX  
+**Repo:** https://github.com/Mafruha17/CIDM632570
+
+---
+
+## 🗂️ Project Modules
+
+### 📁 [Module 1: Orientation + Project Pitch](./Module_1_Assignment/README.md)
+- Self-assessment + Tier declaration
+- AI Tooling Setup
+- Mini-project idea + critique
+- Initial prompt log and reflection
+
+---
+
+### 📁 [Module 2: CRUD + AI-Enhanced ETA](./Module_2_Assignment/README.md)
+- Django scaffold for Delivery Order System
+- HTMX-based CRUD views
+- ETA prediction mock logic
+- Prompt log, accessibility reflection
+
+---
+
+### 📁 [Module 3: Validation + Multi-Model Design](./Module_3_Assignment/README.md)
+- OrderForm with custom validation
+- Customer model (1-to-Many relationship)
+- Enhanced admin + WCAG alignment
+- AI audit, schema diagram, ethical notes
+
+---
+
+## 🔗 Submission Notes
+
+Each module contains:
+- `README.md` with goals + architecture
+- `AI_LOG.md` for prompt history
+- `ETHICS.md` (where applicable)
+
+Final project submissions are tagged by week and module per Canvas instructions.
+
+---
+
+
+
 ## 📂 Repository Structure
 
   - [Module1_Assignment_PDF.pdf](https://github.com/Mafruha17/CIDM632570/raw/main/Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable** (Foundations, Pitch, Django Practice).  
@@ -27,6 +75,7 @@ Each module is organized into its own folder for clarity and version control.
   - [README.md](./Module_2_Assignment/README.md) – Module-level overview.  
 
 ---
+
 
 ## 🔗 Quick Links
 - [Module 1 Assignment](./Module_1_Assignment)  

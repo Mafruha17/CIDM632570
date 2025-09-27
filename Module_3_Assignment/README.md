@@ -1,4 +1,3 @@
-
 # 📦 Module 3 – CIDM 6325: Form Validation + Multi-Model Design
 
 **Author:** Mafruha Chowdhury  
@@ -11,110 +10,41 @@
 
 This module extends the logistics delivery app built in Module 2 by implementing:
 
-- `OrderForm` with custom validation
+- Custom form validation (`OrderForm`)
 - Auto-generated `order_id` (e.g., `ORD-1A2B3C`)
-- ETA estimation (mock AI logic)
+- ETA estimation using mock AI logic
 - A new `Customer` model (One-to-Many with Orders)
-- Accessible, Bootstrap-styled form
-- HTMX compatibility
+- Bootstrap-styled, accessible forms
+- HTMX-compatible form structure
 - Admin interface for both models
 
 ---
 
-## ✅ Completed Features – Part A
+## ✅ Completed Features – Part A: Forms & Validation
 
-### 🧪 Validation & UX
+### 🧪 Validation Logic
 
-- `clean_order_date`: prevents past-dated orders
-- `clean()`: blocks client type from appearing in delivery location
-- Auto-generates `order_id` inside `Order.save()`
-- Custom error messages with ARIA + Bootstrap
-- WCAG 2.2–compliant form display
+Implemented in `forms.py`:
+
+- `clean_order_date`: Prevents orders dated in the past
+- `clean()`: Prevents client type from being embedded in delivery location
+- `order_id`: Auto-generated in `Order.save()` method
+- User-friendly error messages using Bootstrap + ARIA
+- WCAG 2.2–aligned form layout
 
 ---
 
 ## 🧩 Multi-Model Design – Part B
 
-- `Customer` model added
-- One customer → many orders
-- Foreign key relationship tested
-- Visual schema diagram embedded below
+- `Customer` model added with `One-to-Many` relationship
+- Linked via foreign key in the `Order` model
+- Fully functional in admin and form
+- Tested with real CRUD scenarios
 
 ---
 
 ## 🧪 CRUD Verification
 
-- ✅ Create Order (Form + Admin)
-- ✅ Read Orders List
-- ✅ Update via Admin
-- ✅ Delete via Admin
-- ✅ Validations enforced in form
-
----
-
-## 📁 Key Files
-
-- `models.py`: `Order`, `Customer`
-- `forms.py`: `OrderForm` with validation
-- `views.py`: Full CRUD
-- `order_form.html`: Accessible, HTMX-compatible
-- `AI_LOG.md`: Prompt log + decisions
-- `README.md`: This file
-
----
-
-## 🤖 AI Used For
-
-- Auto-ID and ETA logic
-- Form validation and error UX
-- Bootstrap layout and accessibility best practices
-- Debugging and logic cleanup
-
-
----
-
-## 🧠 Ethical & Accessibility Note
-
-
----
-
-This module emphasized not just technical function, but also ethical and accessible design. Field validation and error visibility were tested using both Bootstrap alerts and screen reader-compatible markup.All code was reviewed for ethical implications (e.g., no exposed fields, respectful errors), and all forms include ARIA attributes and field-label associations for assistive technologies.
-
- Decisions like removing editable order IDs helped reduce user input errors. Prompts were crafted to reflect on what AI should generate vs. what the developer must verify manually.
-
----
-
-## 📐 Visual Schema Diagram
-
-![Schema Diagram – Customer to Order](image-1.png)
-
----
-
-## 📦 requirements.txt
-
-```txt
-Django>=4.2,<5.0
-django-htmx>=1.15.0
-````
-
-> Run `pip install -r requirements.txt` to set up the project.
-
----
-
-## 🚀 How to Run This App
-
-```bash
-# Setup
-python -m venv venv
-venv\Scripts\activate      # Windows
-pip install -r requirements.txt
-
-# Run server
-python manage.py migrate
-python manage.py runserver
-```
-
----
 | Scenario                             | Result        |
 | ------------------------------------ | ------------- |
 | Create Order via Form                | ✅ Works       |
@@ -124,3 +54,51 @@ python manage.py runserver
 | Validation for Past Date             | ✅ Error shown |
 | Validation for Duplicate Client Type | ✅ Error shown |
 | Required Field: Customer             | ✅ Error shown |
+
+---
+
+## 📁 Key Files
+
+- `models.py`: Defines `Order`, `Customer`
+- `forms.py`: Custom `OrderForm` with validations
+- `views.py`: Full CRUD support
+- `order_form.html`: Bootstrap + accessible
+- `AI_LOG.md`: Prompt log and design decisions
+- `README.md`: This documentation
+
+---
+
+## 🤖 AI Use Summary
+
+AI assistance included:
+
+- Auto-ID generation logic (`ORD-XXXXXX`)
+- ETA field mock generation
+- Validation rule suggestions
+- UX guidance for error display and form layout
+- Accessibility checks (ARIA roles, WCAG alignment)
+
+---
+
+## 🧠 Ethical & Accessibility Reflection
+
+This module emphasized both technical correctness and responsible design:
+
+- All validation messages were tested for clarity and user dignity.
+- ARIA roles and label-input linking were used for screen reader compatibility.
+- Auto-generated IDs reduced user input risk.
+- Every AI-suggested code block was manually reviewed and adjusted for business fit, usability, and ethical clarity.
+
+---
+
+## 📐 Schema Diagram
+
+![Schema Diagram – Customer to Order](image-1.png)
+
+---
+
+## 📦 `requirements.txt`
+
+```txt
+Django>=4.2,<5.0
+django-htmx>=1.15.0
