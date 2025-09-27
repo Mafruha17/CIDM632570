@@ -41,7 +41,7 @@ This module extends the logistics delivery app built in Module 2 by implementing
 
 | Document                                     | Description                                                          |
 | -------------------------------------------- | -------------------------------------------------------------------- |
-| [`docs/PAERE.md`](docs/PAERE.md)             | Critique of DjangoVMS Journey and instructor’s GitHub methodology.   |
+| [`docs/PARTE.md`](docs/PARTE.md)             | Critique of DjangoVMS Journey and instructor’s GitHub methodology.   |
 | [`docs/PEER_REVIEW.md`](docs/PEER_REVIEW.md) | Peer review assessing another student's form design and model logic. |
 
 ---
