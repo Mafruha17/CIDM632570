@@ -21,7 +21,7 @@ This repository contains all assignment deliverables for the course. Each module
 
 | Module                                      | Description                                                        |
 | ------------------------------------------- | ------------------------------------------------------------------ |
-| [Module 1](./Module_1_Assignment/README.md) | Orientation, Tier declaration, Mini project pitch, AI tooling lab  |
+| [Module 1](./Module_1_Assignment/README.MD) | Orientation, Tier declaration, Mini project pitch, AI tooling lab  |
 | [Module 2](./Module_2_Assignment/README.md) | CRUD Delivery Order System, ETA mock AI logic, PRD, Reflection     |
 | [Module 3](./Module_3_Assignment/README.md) | Form validation, Customer model, Multi-model design, Accessibility |
 
