@@ -43,7 +43,6 @@ This module extends the logistics delivery app built in Module 2 by implementing
 | -------------------------------------------- | -------------------------------------------------------------------- |
 | [`docs/PARTE.md`](docs/PARTE.md)             | Critique of DjangoVMS Journey and instructor’s GitHub methodology.   |
 | [`docs/PEER_REVIEW.md`](docs/PEER_REVIEW.md) | Peer review assessing another student's form design and model logic. |
-
 ---
 
 ## ✅ Part A: Forms & Validation
