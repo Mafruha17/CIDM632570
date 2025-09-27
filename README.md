@@ -1,143 +1,63 @@
-# CIDM 6325/70 – Electronic Commerce and Web Development
+# 📘 CIDM 6325/70 – Electronic Commerce and Web Development
 
-**Student:** Mafruha Chowdhury  
-**Course:** CIDM 6325/70 – Electronic Commerce and Web Development  
-**Semester:** Fall 2025  
+**Student:** Mafruha Chowdhury
+**Course:** CIDM 6325/70 – Electronic Commerce and Web Development
+**Semester:** Fall 2025
 
-This repository contains all assignment deliverables for the course.  
-Each module is organized into its own folder for clarity and version control.
-
----
-
-# 💼 CIDM 6325 – Electronic Commerce | Fall 2025
-
-**Instructor:** [Your Professor's Name]  
-**Student:** Mafruha Chowdhury  
-**Focus:** AI-native, portfolio-driven development using Django + Bootstrap + HTMX  
-**Repo:** https://github.com/Mafruha17/CIDM632570
+This repository contains all assignment deliverables for the course. Each module is organized into its own folder for clarity and version control.
 
 ---
 
-## 🗂️ Project Modules
+# 🗂️ Repository Overview
 
-### 📁 [Module 1: Orientation + Project Pitch](./Module_1_Assignment/README.md)
-- Self-assessment + Tier declaration
-- AI Tooling Setup
-- Mini-project idea + critique
-- Initial prompt log and reflection
-
----
-
-### 📁 [Module 2: CRUD + AI-Enhanced ETA](./Module_2_Assignment/README.md)
-- Django scaffold for Delivery Order System
-- HTMX-based CRUD views
-- ETA prediction mock logic
-- Prompt log, accessibility reflection
+**Instructor:** [Your Professor's Name]
+**Student:** Mafruha Chowdhury
+**Focus:** AI-native, portfolio-driven development using Django + Bootstrap + HTMX
+**Repo:** [Mafruha17/CIDM632570](https://github.com/Mafruha17/CIDM632570)
 
 ---
 
-### 📁 [Module 3: Validation + Multi-Model Design](./Module_3_Assignment/README.md)
-- OrderForm with custom validation
-- Customer model (1-to-Many relationship)
-- Enhanced admin + WCAG alignment
-- AI audit, schema diagram, ethical notes
+## 📁 Project Modules
+
+| Module                                      | Description                                                        |
+| ------------------------------------------- | ------------------------------------------------------------------ |
+| [Module 1](./Module_1_Assignment/README.md) | Orientation, Tier declaration, Mini project pitch, AI tooling lab  |
+| [Module 2](./Module_2_Assignment/README.md) | CRUD Delivery Order System, ETA mock AI logic, PRD, Reflection     |
+| [Module 3](./Module_3_Assignment/README.md) | Form validation, Customer model, Multi-model design, Accessibility |
 
 ---
 
-## 🔗 Submission Notes
+## 📝 Submission Notes
 
-Each module contains:
-- `README.md` with goals + architecture
-- `AI_LOG.md` for prompt history
-- `ETHICS.md` (where applicable)
+Each module includes:
 
-Final project submissions are tagged by week and module per Canvas instructions.
+* `README.md` with module overview, architecture, and progress
+* `AI_LOG.md` for prompt history and tooling reflection
+* `ETHICS.md` or other ethical reflections (when applicable)
+* Screenshots, PRDs, or critique files per assignment instructions
 
----
-
-
-
-## 📂 Repository Structure
-
-  - [Module1_Assignment_PDF.pdf](https://github.com/Mafruha17/CIDM632570/raw/main/Module_1_Assignment/DOC/Module1_Assignment_PDF.pdf) – **Full Module 1 deliverable** (Foundations, Pitch, Django Practice).  
-  
-    Includes the project memo, MVP design, system sketches, risk registry, references, and AI disclosure. 
- 
-  - [AI_LOG.md](./Module_1_Assignment/AI_LOG.md) – AI usage log.  
-  - [ETHICS.md](./Module_1_Assignment/ETHICS.md) – Ethics & accessibility reflection.  
-  - [Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf](./Module_1_Assignment/DOC/Module1_Assignment.pdf) – Django VMS Critique (Part H).  
-
-- **[Module_2_Assignment](./Module_2_Assignment)/**
-  - [PRD.md](./Module_2_Assignment/PRD.md) – Product Requirements Document (Part 0).  
-  - Django + HTMX logistics project (CRUD with AI ETA mock).  
-  - [AI_LOG.md](./Module_2_Assignment/AI_LOG.md) – AI usage log.  
-  - [ETHICS.md](./Module_2_Assignment/ETHICS.md) – Ethics & accessibility reflection.  
-  - [README.md](./Module_2_Assignment/README.md) – Module-level overview.  
+Final submissions are tagged by week/module and aligned with Canvas.
 
 ---
 
+## 🧱 Repository Structure
 
-## 🔗 Quick Links
-- [Module 1 Assignment](./Module_1_Assignment)  
-- [Module 2 Assignment](./Module_2_Assignment)  
-
----
-
-## 📑 Deliverables by Module
-
-### Module 1
-- ✅ **Part A:** Project Pitch (memo + MVP + diagrams)  
-- ✅ **Part B:** AI Tooling Lab Log  
-- ✅ **Part C:** Prompt Log & Reflection  
-- ✅ **Part D:** Ethics & Accessibility Brief  
-- ✅ **Part E:** Syllabus Accountability Note  
-- ✅ **Part F:** Tier Declaration & Rationale  
-- ✅ **Part G:** Django CRUD MiniLab  
-- ✅ **Part H:** Django VMS Critique  
-
-
-### Module 2
-- ✅ **Part 0:** Product Requirements Document (PRD.md)  
-- ✅ **Django Logistics CRUD Project** (HTMX + Bootstrap, mock AI ETA logic)  
-- ✅ **AI_LOG.md** – AI usage log  
-- ✅ **ETHICS.md** – Accessibility & ethics reflection  
-- ⏸ **Deferred by professor:**  
-  - Part A – Auth/CRUD Blog Feature  
-  - Part B – Peer Review  
-  - Part C – CRUD → Business Value Discussion  
-  - Part D – Pulse Survey #2  
-  - Part E – TravelDriveFly Critique  
-
-
----
-
-## 📌 Notes
-- Branches `Module1Assignment` and `Module2Assignment` were consolidated into the **main** branch under clean directories.  
-- All AI-assisted work is logged in `AI_LOG.md` with explicit disclosure.  
-- Ethical, accessibility, and compliance considerations are documented per assignment.  
----
-
-```
+```text
 CIDM632570/
-│
-├── README.md                  # Root overview with links to modules
-│
+├── README.md                      # Root index (this file)
 ├── Module_1_Assignment/
-│   ├── README.md               # Module 1 overview (Parts A–H)
-│   ├── AI_LOG.md               # AI prompt usage log
-│   ├── ETHICS.md               # Accessibility & ethics reflection
-│   ├── Module1_Assignment_PDF.pdf   # Full consolidated Module 1 deliverable
-│   ├── Module1_Assignment_Foundation_Pitch_DjangoPractice.pdf  # Part H – VMS critique
-│   └── (any system diagrams, DOCs if included)
-│
+│   ├── README.md                  # Module 1 overview
+│   ├── AI_LOG.md                  # AI usage log
+│   ├── ETHICS.md                  # Accessibility reflection
+│   ├── DOC/                       # PDF and system design
+│   │   ├── Module1_Assignment_PDF.pdf
+│   │   └── Foundation_Pitch_DjangoPractice.pdf
+│   └── (diagrams, drafts)
 ├── Module_2_Assignment/
-│   ├── README.md               # Module 2 overview (CRUD + AI mock ETA)
-│   ├── PRD.md                  # Product Requirements Document (Part 0)
-│   ├── AI_LOG.md               # AI usage log
-│   ├── ETHICS.md               # Accessibility & ethics reflection
-│   ├── requirements.txt        # Django dependencies
-│   ├── manage.py               # Django project runner
-│   ├── .gitignore
+│   ├── README.md                  # CRUD + HTMX + ETA logic
+│   ├── PRD.md                     # Product Requirements Document
+│   ├── AI_LOG.md                  # Prompt log
+│   ├── ETHICS.md                  # Ethics reflection
 │   ├── logistics_project/
 │   │   └── logistics_app/
 │   │       ├── forms.py
@@ -149,8 +69,69 @@ CIDM632570/
 │   │           ├── order_form.html
 │   │           ├── order_list.html
 │   │           └── order_confirm_delete.html
-│   └── doc/                     # Screenshots, supporting images
+│   ├── manage.py
+│   ├── requirements.txt
+│   └── doc/                       # Screenshot evidence
 │       ├── Orders.png
 │       ├── EditOrders.png
 │       ├── DeleteOrder.png
 │       └── adding_order.png
+├── Module_3_Assignment/
+│   ├── README.md                  # Multi-model + Validation project
+│   ├── AI_LOG.md
+│   ├── PAERE.md                   # Part E: Instructor’s GitHub/Django critique
+│   ├── PEER_REVIEW.md            # Part D: Peer review of student repo
+│   ├── requirements.txt
+│   └── (code and template files)
+```
+
+---
+
+## ✅ Deliverables by Module
+
+### 📌 Module 1
+
+* ✅ **Part A:** Project Pitch + MVP + Diagrams
+* ✅ **Part B:** AI Tooling Session Logs
+* ✅ **Part C:** Prompt Reflection
+* ✅ **Part D:** Accessibility & Ethics Brief
+* ✅ **Part E:** Syllabus Accountability Note
+* ✅ **Part F:** Tier Declaration
+* ✅ **Part G:** Django CRUD MiniLab
+* ✅ **Part H:** Django VMS Critique
+
+### 📌 Module 2
+
+* ✅ **Part 0:** PRD – Product Requirements Document
+* ✅ CRUD System with HTMX
+* ✅ ETA logic (mock AI engine)
+* ✅ Form Styling & UX Logic
+* ✅ Reflection & Ethics
+* ⏳ **Deferred by instructor:** Auth blog, Peer review, TravelDriveFly
+
+### 📌 Module 3
+
+* ✅ OrderForm Validation (Part A)
+* ✅ Multi-model: Customer → Order (Part B)
+* ✅ Schema Diagram + Admin integration
+* ✅ Peer Review (Part D)
+* ✅ DjangoVMS Instructor Critique (Part E)
+
+---
+
+## 🔗 Quick Links
+
+* [📁 Module 1 Assignment](./Module_1_Assignment/)
+* [📁 Module 2 Assignment](./Module_2_Assignment/)
+* [📁 Module 3 Assignment](./Module_3_Assignment/)
+
+---
+
+## 📌 Notes
+
+* All branches were consolidated into `main` with flattened directory structure
+* All AI-assisted work disclosed in `AI_LOG.md`
+* Screenshots, diagrams, and documentation provided per part
+* WCAG 2.2 and ethics considerations embedded in all form-based apps
+
+---
